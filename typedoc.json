@@ -1,0 +1,19 @@
+{
+  "out": "./docs",
+  "readme": "none",
+  "includes": "./src",
+  "exclude": [
+    "**/serviceWorker.ts",
+    "**/setupTests.ts",
+    "**/__tests__/**/*",
+    "**/__fixtures__/**/*",
+    "**/constants/*",
+    "**/assets/*",
+    "**/mappers/*",
+    "**/utils/*"
+  ],
+  "mode": "file",
+  "excludeExternals": true,
+  "stripInternal": true,
+  "excludePrivate": true
+}
